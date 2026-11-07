@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:title" content="Intan Kusuma Dewi | Master Trainer">
+<meta property="og:description" content="Trainer dan fasilitator UMKM, perempuan pengusaha, dan koperasi. 6.300+ peserta terlatih sejak 2019.">
+<style>body{margin:0}img{max-width:100%}</style>
+<title>Intan Kusuma Dewi</title>
+<meta name="description" content="Portofolio Intan Kusuma Dewi, Master Trainer dan fasilitator UMKM, perempuan pengusaha, dan koperasi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --bg:#F5F6FB; --surface:#FFFFFF; --ink:#141A33; --muted:#565E7A; --line:#DCE0EE;
+  --nila:#27368A; --nila-soft:#E8EBFA; --kunyit:#D9961A; --kunyit-ink:#8A5A00;
+  --hero-bg:#1E2A6E; --hero-fg:#F3F4FB; --hero-muted:#BCC3E8; --motif:rgba(255,255,255,.06);
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D1124; --surface:#151A34; --ink:#E7E9F4; --muted:#9AA1C2; --line:#262C4E;
+  --nila:#95A5FF; --nila-soft:#1D2448; --kunyit:#F0B53A; --kunyit-ink:#F0B53A;
+  --hero-bg:#131A42; --hero-fg:#F3F4FB; --hero-muted:#A9B1DC; --motif:rgba(255,255,255,.045);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D1124; --surface:#151A34; --ink:#E7E9F4; --muted:#9AA1C2; --line:#262C4E;
+  --nila:#95A5FF; --nila-soft:#1D2448; --kunyit:#F0B53A; --kunyit-ink:#F0B53A;
+  --hero-bg:#131A42; --hero-fg:#F3F4FB; --hero-muted:#A9B1DC; --motif:rgba(255,255,255,.045);
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.1}
+p{margin:0}
+a{color:var(--nila)}
+:focus-visible{outline:2px solid var(--kunyit);outline-offset:3px;border-radius:4px}
+
+.hero{background-color:var(--hero-bg);color:var(--hero-fg);position:relative;overflow:hidden;
+  background-image:
+    radial-gradient(ellipse 22px 34px at 50% 0, var(--motif) 98%, transparent 100%),
+    radial-gradient(ellipse 22px 34px at 50% 100%, var(--motif) 98%, transparent 100%),
+    radial-gradient(ellipse 34px 22px at 0 50%, var(--motif) 98%, transparent 100%),
+    radial-gradient(ellipse 34px 22px at 100% 50%, var(--motif) 98%, transparent 100%);
+  background-size:72px 72px}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--hero-bg) 30%,transparent 100%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1;padding-block:clamp(40px,7vw,80px) clamp(36px,6vw,64px);display:grid;gap:28px}
+.id-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.mono{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--kunyit);color:#1A1405;font-family:var(--f-display);font-weight:800;font-size:22px;letter-spacing:.02em;flex:none}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--hero-muted)}
+.hero h1{font-size:clamp(40px,7.2vw,76px);font-weight:800;letter-spacing:-.02em}
+.lede{font-size:clamp(17px,2.1vw,20px);max-width:44ch;color:var(--hero-fg);opacity:.92}
+.lede strong{color:var(--kunyit);font-weight:700}
+.contact{display:flex;flex-wrap:wrap;gap:10px}
+.chip{display:inline-flex;align-items:center;gap:10px;padding:9px 12px 9px 14px;border:1px solid rgba(255,255,255,.22);border-radius:999px;color:var(--hero-fg);font-size:14px;background:rgba(255,255,255,.04);user-select:all}
+.chip span{user-select:text}
+.chip button{font:inherit;font-size:12px;font-weight:600;color:var(--hero-bg);background:var(--hero-fg);border:0;border-radius:999px;padding:3px 10px;cursor:pointer}
+.chip button:hover{background:var(--kunyit)}
+.loc{font-size:14px;color:var(--hero-muted)}
+
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:-28px;position:relative;z-index:2}
+.stat{background:var(--surface);padding:20px 20px 18px;display:grid;gap:4px;align-content:start}
+.stat b{font-family:var(--f-display);font-size:clamp(28px,4vw,40px);font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:var(--ink)}
+.stat b em{font-style:normal;color:var(--kunyit-ink)}
+.stat span{font-size:14px;color:var(--muted);line-height:1.4}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+section{padding-block:clamp(48px,7vw,80px) 0}
+.sec-head{display:grid;gap:8px;margin-bottom:28px}
+.sec-head .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--nila)}
+.sec-head h2{font-size:clamp(28px,4vw,40px);font-weight:700;letter-spacing:-.015em}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:clamp(24px,5vw,56px);align-items:start}
+.about p{font-size:18px;max-width:62ch}
+.about p + p{margin-top:16px;color:var(--muted);font-size:16px}
+.partners{display:grid;gap:10px;padding:20px 22px;border-left:3px solid var(--kunyit);background:var(--surface);border-radius:0 12px 12px 0}
+.partners h3{font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.partners ul{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-weight:600}
+@media (max-width:760px){.about{grid-template-columns:1fr}}
+
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px 32px}
+.skill{display:grid;gap:8px;padding-top:16px;border-top:2px solid var(--ink)}
+.skill h3{font-size:20px;font-weight:700}
+.skill p{font-size:15px;color:var(--muted)}
+
+.programs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.prog{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 22px 20px;display:grid;gap:12px;align-content:start;min-width:0}
+.prog.feature{grid-column:1 / -1;grid-template-columns:1.2fr 1fr;gap:12px 36px}
+.prog .org{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--nila)}
+.prog h3{font-size:22px;font-weight:700}
+.prog p{font-size:15px;color:var(--muted)}
+.prog .big{font-family:var(--f-display);font-size:34px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.prog .big small{font-family:var(--f-body);font-size:14px;font-weight:500;color:var(--muted);letter-spacing:0;margin-left:6px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--nila-soft);color:var(--nila)}
+.meter{display:grid;gap:8px}
+.meter .row{display:grid;grid-template-columns:76px 1fr 48px;gap:10px;align-items:center;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.meter .row b{color:var(--ink);text-align:right;font-weight:700}
+.bar{height:10px;border-radius:5px;background:var(--nila-soft);position:relative;overflow:hidden}
+.bar i{position:absolute;inset:0 auto 0 0;border-radius:5px;background:var(--nila)}
+.bar.hit i{background:var(--kunyit)}
+.verdict{font-size:14px;font-weight:600;color:var(--kunyit-ink)}
+.feature-l,.feature-r{display:grid;gap:12px;align-content:start;min-width:0}
+@media (max-width:760px){.programs{grid-template-columns:1fr}.prog.feature{grid-template-columns:1fr}}
+
+.tl{list-style:none;margin:0;padding:0;display:grid}
+.tl li{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:18px 0;border-top:1px solid var(--line)}
+.tl li:last-child{border-bottom:1px solid var(--line)}
+.tl .yr{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding-top:3px;font-variant-numeric:tabular-nums}
+.tl h3{font-family:var(--f-body);font-size:17px;font-weight:700;line-height:1.35}
+.tl .at{font-size:15px;color:var(--nila);font-weight:600}
+.tl p{font-size:15px;color:var(--muted);margin-top:4px;max-width:64ch}
+.now{display:inline-block;margin-left:8px;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--kunyit-ink);vertical-align:2px}
+@media (max-width:600px){.tl li{grid-template-columns:1fr;gap:4px}}
+
+.creds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.creds h3{font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.creds ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.creds li{display:grid;gap:2px;font-weight:600;line-height:1.4}
+.creds li span{font-weight:400;font-size:14px;color:var(--muted)}
+@media (max-width:800px){.creds{grid-template-columns:1fr}}
+
+.cta{margin-top:clamp(56px,8vw,96px);background:var(--hero-bg);color:var(--hero-fg)}
+.cta .wrap{padding-block:clamp(40px,6vw,64px);display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center}
+.cta h2{font-size:clamp(28px,4vw,40px);font-weight:700}
+.cta p{color:var(--hero-muted);margin-top:10px;max-width:46ch}
+.cta .contact{justify-content:flex-start}
+@media (max-width:760px){.cta .wrap{grid-template-columns:1fr}}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom, 0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:14px;font-weight:600;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20}
+.toast.show{opacity:1}
+@media (prefers-reduced-motion:reduce){.toast{transition:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="id-row">
+      <div class="mono" aria-hidden="true">IKD</div>
+      <div>
+        <div class="eyebrow">Master Trainer · Google Certified</div>
+        <div class="loc">Surabaya, Jawa Timur · siap bertugas di seluruh Indonesia</div>
+      </div>
+    </div>
+    <h1>Intan Kusuma Dewi</h1>
+    <p class="lede">Trainer dan fasilitator yang membantu UMKM, perempuan pengusaha, dan koperasi desa naik kelas lewat <strong>digital marketing, literasi keuangan, keamanan siber, dan AI</strong>.</p>
+    <div class="contact">
+      <div class="chip"><span id="email">kusumadewiintan5@gmail.com</span><button type="button" id="copy-email" data-copy="kusumadewiintan5@gmail.com">Salin</button></div>
+      <div class="chip"><span id="phone">+62 895-8000-67577</span><button type="button" id="copy-phone" data-copy="+62895800067577">Salin</button></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="stats" role="list">
+      <div class="stat" role="listitem"><b>6.300<em>+</em></b><span>peserta terlatih sejak 2019</span></div>
+      <div class="stat" role="listitem"><b>5.000<em>+</em></b><span>UMKM go digital bersama Google Indonesia</span></div>
+      <div class="stat" role="listitem"><b>3<em>×</em></b><span>target program inklusi keuangan perempuan</span></div>
+      <div class="stat" role="listitem"><b>7<em>+</em></b><span>tahun melatih, ditambah 5 tahun manajemen akademik</span></div>
+    </div>
+  </div>
+
+  <section id="profil">
+    <div class="wrap about">
+      <div>
+        <div class="sec-head"><span class="k">Profil</span><h2>Materi yang rumit, dibuat bisa langsung dipraktikkan</h2></div>
+        <p>Saya Master Trainer bersertifikat Google dengan pengalaman lebih dari tujuh tahun melatih pelaku UMKM, perempuan pengusaha, dan anak muda. Fokus saya adalah hasil yang bisa diukur: peserta pulang dengan profil bisnis yang sudah aktif, perhitungan HPP yang benar, atau alat AI yang langsung dipakai di usahanya.</p>
+        <p>Latar belakang saya sebagai pendidik matematika dan pengelola program studi membuat saya terbiasa menyusun kurikulum, modul, lembar kerja, serta pelaporan peserta dari pre-test hingga post-test.</p>
+      </div>
+      <aside class="partners" aria-label="Mitra dan pemberi kerja">
+        <h3>Pernah bekerja bersama</h3>
+        <ul>
+          <li>Google Indonesia</li>
+          <li>Kementerian Koperasi RI</li>
+          <li>Mercy Corps Indonesia</li>
+          <li>DBS Foundation</li>
+          <li>Sampoerna Karya Bangsa</li>
+          <li>BSI Creative Business Hub</li>
+          <li>Barto and Friends</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section id="keahlian">
+    <div class="wrap">
+      <div class="sec-head"><span class="k">Keahlian</span><h2>Lima bidang pelatihan</h2></div>
+      <div class="skills">
+        <div class="skill"><h3>Pemasaran Digital</h3><p>Google Profil Bisnis, media sosial, katalog WhatsApp Business, dan strategi agar UMKM mudah ditemukan pembeli.</p></div>
+        <div class="skill"><h3>Literasi &amp; Inklusi Keuangan</h3><p>Keuangan usaha, perhitungan HPP, tabungan dan pembayaran digital, serta akses pendanaan untuk perempuan pengusaha.</p></div>
+        <div class="skill"><h3>Keamanan Siber</h3><p>Perlindungan data, privasi, dan pengelolaan risiko digital untuk pemilik usaha dan anak muda.</p></div>
+        <div class="skill"><h3>Kecerdasan Buatan (AI)</h3><p>Alat AI untuk konten, pemasaran, dan produktivitas usaha, termasuk prompt engineering dan otomasi alur kerja.</p></div>
+        <div class="skill"><h3>Fasilitasi &amp; Pendampingan</h3><p>Training of Trainers, pembelajaran orang dewasa, pendampingan komunitas dan koperasi, desain workshop, dan public speaking.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="program">
+    <div class="wrap">
+      <div class="sec-head"><span class="k">Program unggulan</span><h2>Target dan realisasi</h2></div>
+      <div class="programs">
+
+        <article class="prog feature">
+          <div class="feature-l">
+            <span class="org">Mercy Corps Indonesia &amp; DBS Foundation · 2026</span>
+            <h3>Financial Inclusion for Women Entrepreneurs</h3>
+            <p>Pelatihan literasi keuangan, keuangan usaha, dan akses pendanaan untuk UMKM yang dipimpin perempuan.</p>
+            <div class="tags"><span class="tag">Literasi keuangan</span><span class="tag">HPP</span><span class="tag">Akses pendanaan</span></div>
+          </div>
+          <div class="feature-r">
+            <div class="big">450<small>perempuan pengusaha terlatih</small></div>
+            <div class="meter" aria-label="Target 150 peserta, realisasi 450 peserta">
+              <div class="row"><span>Target</span><div class="bar"><i style="width:33.3%"></i></div><b>150</b></div>
+              <div class="row"><span>Realisasi</span><div class="bar hit"><i style="width:100%"></i></div><b>450</b></div>
+            </div>
+            <span class="verdict">Tercapai 300% dari target</span>
+          </div>
+        </article>
+
+        <article class="prog">
+          <span class="org">Sampoerna Karya Bangsa · 2026–sekarang</span>
+          <h3>Workshop AI untuk UMKM</h3>
+          <p>Mengajarkan pelaku UMKM memakai alat AI untuk pemasaran, pembuatan konten, dan produktivitas usaha.</p>
+          <div class="meter" aria-label="Target 150 peserta, realisasi 150 peserta">
+            <div class="row"><span>Target</span><div class="bar"><i style="width:100%"></i></div><b>150</b></div>
+            <div class="row"><span>Realisasi</span><div class="bar hit"><i style="width:100%"></i></div><b>150</b></div>
+          </div>
+          <span class="verdict">Target 100% tercapai, seluruh peserta lulus</span>
+        </article>
+
+        <article class="prog">
+          <span class="org">Google Indonesia · 2019–2025</span>
+          <h3>Womenwill &amp; Gapura Digital</h3>
+          <p>Spokesperson dan trainer program literasi digital dan pemberdayaan ekonomi perempuan, termasuk pembuatan Google Profil Bisnis.</p>
+          <div class="big">5.000+<small>UMKM terlatih</small></div>
+          <div class="tags"><span class="tag">Best Mentor 2019</span><span class="tag">Google Profil Bisnis</span></div>
+        </article>
+
+        <article class="prog">
+          <span class="org">Kementerian Koperasi RI · 2026–sekarang</span>
+          <h3>Fasilitator Koperasi Desa/Kelurahan Merah Putih</h3>
+          <p>Memfasilitasi pelatihan dan penguatan kelembagaan serta usaha bagi pengurus dan anggota KDKMP.</p>
+          <div class="tags"><span class="tag">Koperasi</span><span class="tag">Penguatan kelembagaan</span></div>
+        </article>
+
+        <article class="prog">
+          <span class="org">Inisiatif mandiri · Surabaya · 2026–sekarang</span>
+          <h3>Lapak Wonocolo Fiesta</h3>
+          <p>Program perdagangan dan pengembangan usaha untuk mempercepat pertumbuhan UMKM di Kecamatan Wonocolo, dilengkapi marketplace online khusus penjual lokal.</p>
+          <div class="big">500<small>UMKM bergabung</small></div>
+        </article>
+
+        <article class="prog">
+          <span class="org">Barto and Friends · 2025–sekarang</span>
+          <h3>Keamanan Siber &amp; Pemasaran Digital</h3>
+          <p>Pelatihan kesadaran keamanan siber, perlindungan data, dan pemasaran digital untuk pelaku UMKM.</p>
+          <div class="big">300<small>peserta UMKM</small></div>
+        </article>
+
+        <article class="prog">
+          <span class="org">Berbagai lembaga · 2025</span>
+          <h3>Keamanan Siber untuk UMKM &amp; Pemuda</h3>
+          <p>Program intensif satu bulan tentang perlindungan data, privasi, dan pengelolaan risiko digital.</p>
+          <div class="big">500<small>peserta dalam 1 bulan</small></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="riwayat">
+    <div class="wrap">
+      <div class="sec-head"><span class="k">Riwayat</span><h2>Perjalanan profesional</h2></div>
+      <ol class="tl">
+        <li><span class="yr">2026 – sekarang</span><div><h3>Fasilitator, Program Pengembangan Koperasi<span class="now">Aktif</span></h3><div class="at">Kementerian Koperasi Republik Indonesia</div></div></li>
+        <li><span class="yr">2026 – sekarang</span><div><h3>Trainer Artificial Intelligence<span class="now">Aktif</span></h3><div class="at">Sampoerna Karya Bangsa</div></div></li>
+        <li><span class="yr">2026 – sekarang</span><div><h3>Trainer AI<span class="now">Aktif</span></h3><div class="at">BSI Creative Business Hub Surabaya</div><p>Pelatihan alat AI, prompt engineering, dan otomasi alur kerja digital untuk startup kreatif dan UMKM.</p></div></li>
+        <li><span class="yr">2026 – sekarang</span><div><h3>Penggagas Program<span class="now">Aktif</span></h3><div class="at">Lapak Wonocolo Fiesta, Surabaya</div></div></li>
+        <li><span class="yr">2026</span><div><h3>Trainer, Financial Inclusion for Women Entrepreneurs</h3><div class="at">Mercy Corps Indonesia &amp; DBS Foundation</div></div></li>
+        <li><span class="yr">2025 – sekarang</span><div><h3>Trainer Keamanan Siber &amp; Pemasaran Digital<span class="now">Aktif</span></h3><div class="at">Barto and Friends</div></div></li>
+        <li><span class="yr">2025</span><div><h3>Sekretaris Jenderal</h3><div class="at">All Indonesia Trade Union Platform</div><p>Mengelola administrasi dan komunikasi strategis jaringan serikat pekerja nasional.</p></div></li>
+        <li><span class="yr">2019 – 2025</span><div><h3>Spokesperson &amp; Trainer, Womenwill dan Gapura Digital</h3><div class="at">Google Indonesia</div></div></li>
+        <li><span class="yr">2018 – 2022</span><div><h3>Sekretaris Redaksi</h3><div class="at">Tabloid Cendekia Utama</div></div></li>
+        <li><span class="yr">2011 – 2016</span><div><h3>Sekretaris &amp; Ketua Program Studi Pendidikan Matematika</h3><div class="at">STKIP PGRI Sumenep</div><p>Pemetaan kurikulum, operasional akademik, dan koordinasi dosen.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="kredensial">
+    <div class="wrap">
+      <div class="sec-head"><span class="k">Kredensial</span><h2>Sertifikasi, penghargaan, dan pendidikan</h2></div>
+      <div class="creds">
+        <div>
+          <h3>Sertifikasi</h3>
+          <ul>
+            <li>Master Trainer, Google Certified<span>Google Indonesia</span></li>
+            <li>Master Trainer, Artificial Intelligence</li>
+            <li>Certified Facilitator, Cyber Security</li>
+            <li>Certified Facilitator, Financial Inclusion for Women Entrepreneurs<span>Mercy Corps Indonesia &amp; DBS Foundation, 2026</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Penghargaan</h3>
+          <ul>
+            <li>Best Mentor<span>Google Womenwill Seminar (Entrepreneur Empowerment), 2019</span></li>
+            <li>Juara 1, Duta Pelopor Pemuda Bidang Sumber Daya Alam dan Lingkungan Hidup<span>2015</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Pendidikan</h3>
+          <ul>
+            <li>S1 Pendidikan Matematika<span>Universitas Nusantara PGRI Kediri, 2007–2010</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="cta" id="kontak">
+  <div class="wrap">
+    <div>
+      <h2>Butuh trainer atau fasilitator untuk program Anda?</h2>
+      <p>Terbuka untuk pelatihan UMKM, program pemberdayaan perempuan, pendampingan koperasi dan BUMDesa, serta konsultasi program NGO.</p>
+    </div>
+    <div class="contact">
+      <div class="chip"><span>kusumadewiintan5@gmail.com</span><button type="button" id="copy-email-2" data-copy="kusumadewiintan5@gmail.com">Salin</button></div>
+      <div class="chip"><span>+62 895-8000-67577</span><button type="button" id="copy-phone-2" data-copy="+62895800067577">Salin</button></div>
+    </div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var toast=document.getElementById('toast'),t;
+  function show(msg){toast.textContent=msg;toast.classList.add('show');clearTimeout(t);t=setTimeout(function(){toast.classList.remove('show')},1800)}
+  function selectText(el){try{var r=document.createRange();r.selectNodeContents(el);var s=window.getSelection();s.removeAllRanges();s.addRange(r);}catch(e){}}
+  document.querySelectorAll('[data-copy]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var val=btn.getAttribute('data-copy'),span=btn.previousElementSibling;
+      try{
+        navigator.clipboard.writeText(val).then(function(){show('Disalin: '+val)},function(){selectText(span);show('Teks sudah dipilih, tekan salin')});
+      }catch(e){selectText(span);show('Teks sudah dipilih, tekan salin')}
+    });
+  });
+})();
+</script>
+</body>
+</html>
